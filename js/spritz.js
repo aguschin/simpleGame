@@ -30,7 +30,7 @@ for (i=0;i<box_number;i++) {
 		cross_array[i][j]=0;
 	}
 }
-var box_amount = 1;//Math.floor(2+Math.random()*3);
+var box_amount = Math.floor(2+Math.random()*3);
 
 // Background image
 var bgReady = false;
@@ -80,7 +80,7 @@ var reset = function () {
 		cross_array[i][j]=0;
 	}
 	}
-	box_amount = 1;//Math.floor(2+Math.random()*3);
+	box_amount = Math.floor(2+Math.random()*3);
 	var rand1 = 0;
 	var rand2 = 0;
 	for (i=0; i<box_amount; i++) {
